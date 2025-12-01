@@ -8,19 +8,19 @@ export function PlayerDashboard() {
     <MobileFrame title="Player Mobile App - Dashboard">
       <div className="h-full flex flex-col bg-black">
         {/* Header */}
-        <div className="bg-red-600 text-white pt-16 px-6 pb-6">
+        <div className="bg-black text-white pt-16 px-6 pb-6">
           <div className="flex items-center justify-between mb-6">
             <div>
-              <p className="text-red-200 mb-1">Welcome back,</p>
-              <h2 className="text-white">Aditya Krishnan</h2>
+              <p className="text-neutral-400 mb-1">Welcome back,</p>
+              <h2 className="text-white">Rajesh Kumar</h2>
             </div>
-            <Button variant="ghost" size="icon" className="text-white hover:bg-red-700">
+            <Button variant="ghost" size="icon" className="text-white hover:bg-neutral-900">
               <Settings className="size-6" />
             </Button>
           </div>
 
           {/* Player ID Card */}
-          <div className="bg-black text-white rounded-xl p-6 shadow-lg border-2 border-red-800">
+          <div className="bg-neutral-900 text-white rounded-xl p-6 shadow-lg border-2 border-neutral-800">
             <div className="flex items-start justify-between mb-4">
               <div>
                 <p className="text-neutral-400 mb-1">Player ID</p>
@@ -36,7 +36,7 @@ export function PlayerDashboard() {
                 <p className="text-neutral-400 mb-1">Total Games</p>
                 <p className="text-white">47</p>
               </div>
-              <div className="w-24 h-24 bg-neutral-900 border-2 border-red-600 rounded-lg flex items-center justify-center">
+              <div className="w-24 h-24 bg-black border-2 border-red-600 rounded-lg flex items-center justify-center">
                 <QrCode className="size-16 text-red-500" />
               </div>
             </div>
