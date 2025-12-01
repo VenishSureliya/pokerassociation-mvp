@@ -54,7 +54,7 @@ export function PlayerDashboard() {
               View Details
             </Button>
           </div>
-          
+
           <div className="bg-black border-2 border-red-600 rounded-lg p-4">
             <p className="text-neutral-400 mb-1">Available Balance</p>
             <h2 className="text-red-500">₹12,450</h2>
@@ -64,7 +64,7 @@ export function PlayerDashboard() {
         {/* Quick Actions */}
         <div className="flex-1 px-6 py-6 bg-black">
           <h3 className="text-white mb-4">Quick Actions</h3>
-          
+
           <div className="grid grid-cols-2 gap-4">
             <button className="p-6 bg-neutral-900 border-2 border-red-600 rounded-xl hover:bg-red-600 transition-colors">
               <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center mb-3">
@@ -106,7 +106,7 @@ export function PlayerDashboard() {
                 </div>
                 <Badge variant="outline" className="border-2 border-neutral-600 text-neutral-400">Completed</Badge>
               </div>
-              
+
               <div className="p-3 bg-neutral-900 border-2 border-neutral-800 rounded-lg flex items-center justify-between">
                 <div>
                   <p className="text-white">Chips Added</p>
